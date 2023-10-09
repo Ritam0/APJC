@@ -16,13 +16,18 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- ===== Firebase ===== -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+    integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
@@ -43,7 +48,8 @@
         <div class="container-fluid header_top_container">
 
           <div class="contact_nav">
-            <a href="https://www.google.com/maps/place/Beguntala+Durga+Puja+Ground/@22.8990827,88.38819,18.51z/data=!4m6!3m5!1s0x39f893f188b19979:0x4db3dd2e5b243da3!8m2!3d22.8990248!4d88.3884852!16s%2Fg%2F11lkgnynx6?entry=ttu" target="_blank">
+            <a href="https://www.google.com/maps/place/Beguntala+Durga+Puja+Ground/@22.8990827,88.38819,18.51z/data=!4m6!3m5!1s0x39f893f188b19979:0x4db3dd2e5b243da3!8m2!3d22.8990248!4d88.3884852!16s%2Fg%2F11lkgnynx6?entry=ttu"
+              target="_blank">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
               <span>
                 Location
@@ -97,7 +103,8 @@
                   <a class="nav-link" href="drawing.html">Drawing</a>
                 </li>
                 <li class="nav-item">
-                  <button id="login-btn" onclick="gauth()" class="nav-link" style="background-color: rgba(255, 0, 0, 0); border: none;">
+                  <button id="login-btn" onclick="gauth()" class="nav-link"
+                    style="background-color: rgba(255, 0, 0, 0); border: none;">
                     <i class="fa fa-user" aria-hidden="true"></i>
                     <span>
                       Login
@@ -132,9 +139,16 @@
               </h2>
             </div>
             <p class="detail_p_mt">
-              Join us on October 22, 2023, for an exhilarating quiz competition hosted by the APJC (Attma Prakash Junior Comitee). This intellectually stimulating event is open to participants of all ages and backgrounds, making it a must-attend for knowledge enthusiasts. Test your wits and win exciting cash prizes! The quiz covers a diverse range of topics, promising a challenging yet fun experience. Sharpen your mind and prepare for an engaging day of competition. Mark your calendar and stay tuned for more details. Don't miss your chance to showcase your knowledge and take home fantastic rewards at the APJC Quiz Competition!
+              Join us on October 22, 2023, for an exhilarating quiz competition hosted by the APJC (Attma Prakash Junior
+              Comitee). This intellectually stimulating event is open to participants of all ages and backgrounds,
+              making it a must-attend for knowledge enthusiasts. Test your wits and win exciting cash prizes! The quiz
+              covers a diverse range of topics, promising a challenging yet fun experience. Sharpen your mind and
+              prepare for an engaging day of competition. Mark your calendar and stay tuned for more details. Don't miss
+              your chance to showcase your knowledge and take home fantastic rewards at the APJC Quiz Competition!
             </p>
-            <a target="_blank"  href="https://docs.google.com/forms/d/e/1FAIpQLSflFwKLZGtb2W17KOQ3GvsL9pI1yhBqzmV2WCZEMTIaTlT0KA/viewform" class="">
+            <a target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSflFwKLZGtb2W17KOQ3GvsL9pI1yhBqzmV2WCZEMTIaTlT0KA/viewform"
+              class="">
               Apply Now
             </a>
           </div>
@@ -153,18 +167,22 @@
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
   <!-- owl slider -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <!-- nice select -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"
+    integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
   <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- End Google Map -->
 </body>
-
+<script src="js\firebase.js"></script>
 </html>

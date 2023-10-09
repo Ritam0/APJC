@@ -16,13 +16,18 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- ===== Firebase ===== -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+    integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
@@ -43,7 +48,8 @@
         <div class="container-fluid header_top_container">
 
           <div class="contact_nav">
-            <a href="https://www.google.com/maps/place/Beguntala+Durga+Puja+Ground/@22.8990827,88.38819,18.51z/data=!4m6!3m5!1s0x39f893f188b19979:0x4db3dd2e5b243da3!8m2!3d22.8990248!4d88.3884852!16s%2Fg%2F11lkgnynx6?entry=ttu" target="_blank">
+            <a href="https://www.google.com/maps/place/Beguntala+Durga+Puja+Ground/@22.8990827,88.38819,18.51z/data=!4m6!3m5!1s0x39f893f188b19979:0x4db3dd2e5b243da3!8m2!3d22.8990248!4d88.3884852!16s%2Fg%2F11lkgnynx6?entry=ttu"
+              target="_blank">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
               <span>
                 Location
@@ -97,7 +103,8 @@
                   <a class="nav-link" href=".html">Drawing</a>
                 </li>
                 <li class="nav-item">
-                  <button id="login-btn" onclick="gauth()" class="nav-link" style="background-color: rgba(255, 0, 0, 0); border: none;">
+                  <button id="login-btn" onclick="gauth()" class="nav-link"
+                    style="background-color: rgba(255, 0, 0, 0); border: none;">
                     <i class="fa fa-user" aria-hidden="true"></i>
                     <span>
                       Login
@@ -134,37 +141,37 @@
       <div class="service_container">
         <div class="carousel-wrap ">
           <div class="service_owl-carousel owl-carousel">
-           
+
             <div class="item">
               <div class="box ">
-        
+
                 <div class="detail-box">
                   <h5>
                     Buzzy Bee
                   </h5>
                   <p>
-                    
-Buzzy bee, so small and free, <br>
-Buzzing 'round from tree to tree. <br>
-Gathering nectar, oh, so sweet, <br>
-In the garden, a busy treat! <br>
+
+                    Buzzy bee, so small and free, <br>
+                    Buzzing 'round from tree to tree. <br>
+                    Gathering nectar, oh, so sweet, <br>
+                    In the garden, a busy treat! <br>
                   </p>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="box ">
-                
+
                 <div class="detail-box">
                   <h5>
                     Twinkle, Twinkle Little Star
                   </h5>
                   <p>
-                    
-Twinkle, twinkle, little star, <br>
-How I wonder what you are! <br>
-Up above the world so high, <br>
-Like a diamond in the sky. <br>
+
+                    Twinkle, twinkle, little star, <br>
+                    How I wonder what you are! <br>
+                    Up above the world so high, <br>
+                    Like a diamond in the sky. <br>
                   </p>
                 </div>
               </div>
@@ -176,11 +183,11 @@ Like a diamond in the sky. <br>
                     Rainbow Delight
                   </h5>
                   <p>
-                    
-In the sky so blue and high, <br>
-After rain, you catch my eye. <br>
-Colors bright, oh, what a sight, <br>
-A rainbow stretching, pure and light. <br>
+
+                    In the sky so blue and high, <br>
+                    After rain, you catch my eye. <br>
+                    Colors bright, oh, what a sight, <br>
+                    A rainbow stretching, pure and light. <br>
                   </p>
                 </div>
               </div>
@@ -188,13 +195,13 @@ A rainbow stretching, pure and light. <br>
           </div>
         </div>
       </div>
-      
+
     </div>
   </section>
 
   <!-- service section ends -->
 
-  
+
 
   <!-- footer section -->
   <footer class="footer_section">
@@ -210,18 +217,23 @@ A rainbow stretching, pure and light. <br>
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
   <!-- owl slider -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <!-- nice select -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"
+    integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
   <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- End Google Map -->
 </body>
+<script src="js\firebase.js"></script>
 
 </html>
