@@ -17,12 +17,19 @@
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
+  <!-- ===== Firebase ===== -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+    integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
@@ -83,7 +90,8 @@
           <nav class="navbar navbar-expand-lg custom_nav-container ">
             <a class="navbar-brand " href="index.html"> Finter </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class=""> </span>
             </button>
 
@@ -105,14 +113,11 @@
                   <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  
-                  <button onclick="gauth">
-                    <a class="nav-link" href="#">
-                      <i class="fa fa-user" aria-hidden="true"></i>
-                      <span>
-                        Login
-                      </span>
-                    </a>
+                  <button id="login-btn" onclick="gauth()" class="nav-link" style="background-color: rgba(255, 0, 0, 0); border: none;">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <span>
+                      Login
+                    </span>
                   </button>
                 </li>
                 <form class="form-inline justify-content-center">
@@ -141,7 +146,9 @@
                       Welding Services
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis fugit, sed tempora praesentium commodi error, hic recusandae repudiandae neque ad molestias, atque veritatis labore quae eveniet autem in
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis fugit, sed tempora praesentium
+                      commodi error, hic recusandae repudiandae neque ad molestias, atque veritatis labore quae eveniet
+                      autem in
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
@@ -163,7 +170,9 @@
                       Welding Services
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis fugit, sed tempora praesentium commodi error, hic recusandae repudiandae neque ad molestias, atque veritatis labore quae eveniet autem in
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis fugit, sed tempora praesentium
+                      commodi error, hic recusandae repudiandae neque ad molestias, atque veritatis labore quae eveniet
+                      autem in
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
@@ -185,7 +194,9 @@
                       Welding Services
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis fugit, sed tempora praesentium commodi error, hic recusandae repudiandae neque ad molestias, atque veritatis labore quae eveniet autem in
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis fugit, sed tempora praesentium
+                      commodi error, hic recusandae repudiandae neque ad molestias, atque veritatis labore quae eveniet
+                      autem in
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
@@ -223,7 +234,8 @@
           Our Services
         </h2>
         <p class="col-lg-8 px-0">
-          If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+          If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything believable. If you
+          are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
         </p>
       </div>
       <div class="service_container">
@@ -351,7 +363,11 @@
               </h2>
             </div>
             <p class="detail_p_mt">
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, orThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, orThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour, orThere are many variations of passages of Lorem Ipsum available, but
+              the majority have suffered alteration in some form, by injected humour, orThere are many variations of
+              passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+              humour, or
             </p>
             <a href="about.html" class="">
               Read More
@@ -515,7 +531,9 @@
                       Jone Mark
                     </h5>
                     <p>
-                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                      uncover many web sites still in their infancy. Various versions have evolved over the years,
+                      sometimes by
                     </p>
                     <span>
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -537,7 +555,9 @@
                       Jone Mark
                     </h5>
                     <p>
-                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                      uncover many web sites still in their infancy. Various versions have evolved over the years,
+                      sometimes by
                     </p>
                     <span>
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -559,7 +579,9 @@
                       Jone Mark
                     </h5>
                     <p>
-                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                      Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                      uncover many web sites still in their infancy. Various versions have evolved over the years,
+                      sometimes by
                     </p>
                     <span>
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -728,17 +750,21 @@
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
   <!-- owl slider -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <!-- nice select -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"
+    integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
   <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- End Google Map -->
 </body>
 <script src="js\firebase.js"></script>
